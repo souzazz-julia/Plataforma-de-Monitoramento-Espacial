@@ -62,6 +62,4 @@ do limite definido para cada sensor.
 O enunciado lista 11 arquivos e pede que `ComponenteEspacial` tenha pelo menos
 uma classe concreta herdeira. Em vez de criar uma classe fora dessa lista,
 `SistemaPropulsao` foi modelada como subclasse de `ComponenteEspacial` — um motor
-é, de fato, um componente da estação (tem id, nome e liga/desliga). Assim os
-critérios de classe abstrata e de herança são atendidos sem acrescentar arquivos
-ao escopo definido.
+é, de fato, um componente da estação (tem id, nome e liga/desliga).
